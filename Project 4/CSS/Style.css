@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Englebert&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Englebert', cursive, sans-serif;
+}
+h1{
+    font-size: 80px;
+    line-height: 64px;
+    color: #ffffff;
+    font-weight: 900;
+    text-shadow: 0 4px 10px black;
+}
+
+h2{
+    font-size: 55px;
+    line-height: 54px;
+    color: #ffffff;
+    padding-bottom: 7px;
+    font-weight: 900;
+    text-shadow: 0 5px 10px black;
+}
+h4{
+    font-size: 30px;
+    color: #ffffff;
+    padding-bottom: 10px;
+    font-weight: 700;
+    text-shadow: 0 5px 10px black;
+}
+p{
+    font-size: 19px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    margin: 15px 0 20px 0;
+    text-shadow: 0 5px 10px rgb(0, 0, 0);    
+}
+body{
+    width: 100%;
+}
+
+/* header start */
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 150px;
+    background: #f1ae60e7;
+    box-shadow: 0 8px 13px rgb(rgb(0, 0, 0), 0, 0, 0.08);
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+#navbar li {
+    list-style: none;
+    padding: 0 30px;
+    position: relative;
+}
+#navbar li a {
+    font-family: 'Chivo Mono', monospace;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    transition: 0.2s ease;
+}
+
+#navbar li a:hover
+,#navbar li a.Home{
+    color: rgb(238, 86, 86);
+    text-shadow: 1px 1px 3px black;
+}
+#navbar li a.Home::after,
+#navbar li a:hover::after
+{
+    content: "";
+    width: 20%;
+    height: 2px;
+    background: #ffffff;
+    position: absolute;
+    bottom: -4px;
+    left: 31px;
+}
+.logo{
+    width: 25%;
+}
+
+/* Home Page */
+
+#hero{
+    background-image: url(/Images/hero.jpg);
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 25%; right: 0;
+    padding: 0 85px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+#hero h1{
+    color: #fbff00e3;
+}
+#hero button {
+    background-image: url(/Images/button.png);
+    background-color: transparent;
+    color: #000000;
+    font-size: 25px;
+    border: 0;
+    padding: 10px 75px 20px 60px;
+    cursor: pointer;
+    font-weight: 600;
+    background-repeat: no-repeat;
+}

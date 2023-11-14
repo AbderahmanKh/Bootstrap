@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)) ,url(/Images/Background.jpg);
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    display: flex;
+    background: transparent;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    font-family: 'Major Mono Display', monospace;
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: 550;
+    color: rgb(255, 255, 255);
+    transition: 0.3s;
+}
+.logo:hover{
+    text-shadow: 2px -2px 6px #fff;
+}
+.navbar a {
+    font-size: 17px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 550;
+    margin-left: 60px;
+    transition: 0.3s;
+}
+.navbar a:hover{
+    color: rgb(108, 123, 190);
+    text-shadow: 2px -2px 6px rgb(108, 123, 190);
+}
+
+.home{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 9%;
+}
+
+.mainhome{
+    max-width: 600px;
+    color: aliceblue;
+}
+
+h1{
+    font-family: 'Righteous', cursive;
+    font-size: 55px;
+    font-weight: 600;
+    text-shadow: 1px 3px #1c3bc4;
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+}
+h3{
+    margin-bottom: 15px;
+    text-shadow: 1px 3px 5px #002fff;
+    font-family: 'Lilita One', cursive;
+    padding-left: 22%;
+    transition: 0.5s;
+}
+p{
+    font-family: 'Pangolin', cursive;
+    font-size: 18px;
+    text-shadow: 1px 2px #000000;
+    margin-bottom: 10px;
+    
+}
+
+.btnbx{
+    width: 300px;
+    height: 50px;
+}
+.btnbx a{
+    position: relative;
+    display: inline-flex;
+    margin-top: 19px;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 100%;
+    background: #00abf0;
+    border-radius: 20px;
+    font-size: 18px;
+    text-decoration: none;
+    font-family: 'Concert One', cursive;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 2px 2px #000000;
+    letter-spacing: 1px;
+    transition: 0.5s;
+}
+.btnbx a:hover{
+    background: #7bdaff;
+    color: rgb(0, 17, 255);
+    text-shadow: 1px 3px #00abf0;
+}
