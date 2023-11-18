@@ -17,13 +17,13 @@
     top: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(38, 114, 212, 0.9);
+    background-color: rgb(103, 130, 219);
     z-index: 4;
 }
 
-.dropdown-nav__closenavbtn{
+.dropdown-nav__closeNavBtn{
     position: absolute;
     top: 20px;
     right: 15px;
-    background-color: rgba(113, 164, 231, 0.7);
+    background-color: rgba(113, 164, 231, 0.9);
 }
