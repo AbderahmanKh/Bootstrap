@@ -27,3 +27,14 @@
     right: 15px;
     background-color: rgba(255, 255, 255, 0.9);
 }
+
+.container__dropdown-nav {
+    height: 100vh;
+    padding: 0 1rem;
+}
+
+.par {
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 700;
+}
